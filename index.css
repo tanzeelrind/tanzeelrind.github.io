@@ -521,20 +521,22 @@ h4 a {
     align-items: center;
     justify-content: left;
     font-size: small;
+    gap:30px;
     
 }
 .container7 .container7-inner .container7a{
-    margin-left: 80px;
+    margin-left: 100px;
+    width: 20%;
 }
 .container7 .container7-inner .container7a h2{
     margin-top: 100px;
     font-size: medium;
-    margin-bottom: 30px;
-    font-weight: lighter;
+    margin-bottom: 20px;
+    font-weight: 600;
     color: #545353;
 }
 .container7 .container7-inner .container7a p{
-    width: 60%;
+    width: 100%;
     line-height: 1.6;
     color: #a29f9f;
     font-weight: 600;
@@ -547,34 +549,34 @@ h4 a {
 }
 .container7 .container7-inner .container7b
 {
-    margin-left: -110px;
+    margin-left: 0px
 }
 .container7 .container7-inner .container7c
 {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 .container7 .container7-inner .container7d
 {
-    margin-left: 40px;
-    margin-right: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .container7 .container7-inner .container7b ul h2, .container7 .container7-inner .container7c ul h2, .container7 .container7-inner .container7d   ul h2{
     margin-top: 85px;
     font-size: medium;
-    font-weight: lighter;
+    font-weight: 600;
     margin-bottom: 30px;
     color: #545353;
 }
 .container7 .container7-inner .container7e 
 {   
     margin-top: 0px;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 .container7 .container7-inner .container7e h2 
 {   font-size: medium;
-    font-weight: lighter;
-    margin-bottom: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
     color: #545353;
 }
 .container7 .container7-inner .container7e span img {
@@ -691,7 +693,6 @@ h4 a {
         margin-bottom: 20px; 
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
     }
     
     .container3a h1 {
@@ -699,29 +700,30 @@ h4 a {
     }
     
     .container3a img {
-        width: 100%;
+        width: 95%;
         height: auto;
         margin-left: 10px;
     }
     
     .container3a .para1 {
         margin-left: 10px; /* Adjust left margin */
-        width: 100%; /* Adjust width */
+        width: 97%; /* Adjust width */
         margin-bottom: 0;
-        font-size: 15px;
+        font-size: 18px;
         text-align: left;
     }
     
     .container3 .container3b {
-        margin-left: 10px;/* Adjust padding */
+        margin: 0;
         margin-top: 0;
         padding-top: 0;
+        width: 100%;
     }
     .container3b .skills {
-        padding-left: 0;
-        width: 100%;
-        margin-top: 0; 
-        padding-top: 0;/* Adjust padding */
+        width: 95%;
+        margin-left: 10px;
+        padding: 0;
+        justify-content: center;
     }
     
     .container4 .desktop-view {
@@ -807,14 +809,14 @@ h4 a {
         padding-top: 40px;
     }
     .container6 .names{
-        gap: 40px;
+        gap: 10px;
         margin-bottom: 0;
     }
     .container6 .names .name span{
-        width:100%;
+        width:90%;
     }
     .container6 .names .fullname span{
-        width: 100%;
+        width: 90%;
     }
     .container6 .email {
         width: 96%;
@@ -831,7 +833,7 @@ h4 a {
     .container7 .container7-inner {
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 500px;
+        margin-bottom: 50px;
     }
 
     .container7 .container7-inner .container7a{
@@ -843,20 +845,24 @@ h4 a {
     .container7 .container7-inner .container7c,
     .container7 .container7-inner .container7d,
     .container7 .container7-inner .container7e {
-        margin-left: -20px;
-        margin-right: 20px;
+       
         width: 100%;
         margin-bottom: 0px;
     }
     .container7 .container7-inner .container7e{
+        width: 50%;
         margin-left: 20px;
-        margin-right: 20px;
-        width: 100%;
     }
     .container7 .container7-inner .container7a h2{
         margin-top: 20px;
         font-weight: bold;
         font-size: large;
+    }
+    .container7 .container7-inner .container7b ul,
+    .container7 .container7-inner .container7c ul,
+    .container7 .container7-inner .container7d ul{
+        padding: 0;
+        margin-left: 20px;
     }
     .container7 .container7-inner .container7b ul h2,
     .container7 .container7-inner .container7c ul h2,
@@ -880,6 +886,7 @@ h4 a {
         margin-top: 40px;
         font-size: medium;
         margin-bottom: 20px;
+        padding-left: 0;
     }
 }
 
